@@ -1,5 +1,8 @@
 # Table code
-
+```
+Developed by : G Venkata Pavan Kumar
+Reg. No : 212221240013
+```
 ### Assignment 1: Table 
 HTML CODE:
 ```html
