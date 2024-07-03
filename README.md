@@ -84,3 +84,6 @@ HTML CODE:
 </html>
 
 ```
+### Output:
+![Screenshot 2024-07-03 214027](https://github.com/Pavan-Gv/Day_1_HTML/assets/94827772/e998810e-593b-4f33-98f6-fbbc77cd4585)
+
