@@ -1,50 +1,99 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+* {
     margin: 0;
     padding: 0;
-}
+    
+  }
+  .banner{
+    width: 100%;
+    height: 95vh;
+    background-color: aliceblue;
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 50px;
+    font-size: 50px;
+    font-family:'sans-serif';
+    color: #305017;
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header img {
-    width: 50px;
-    vertical-align: middle;
-}
-
-header h1 {
-    display: inline;
-    margin-left: 10px;
-}
-
-nav {
-    background-color: #444;
-    overflow: hidden;
-}
-
-nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #ddd;
+  }
+  form {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1px 1px;
+    font-size: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+  }
+  form input {
+    background: rgb(226, 226, 226);
+    flex: 1;
+    border: 0;
+    border-radius: 10%;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  ::placeholder {
     color: black;
-}
-
-.container {
-    padding: 20px;
-}
-
-h2 {
-    color: #333;
-}
+  }
+  form button {
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    background: #59b18e;
+    cursor: pointer;
+  }
+  
+  .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text{
+    color: #305017;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family:'sans-seri';
+  }
+  
+  
+  footer {
+    border: 1px;
+    padding: 5px;
+    font-family: 'sans-serif';
+    transition: 0.5s;
+    background: #000000;
+    color: #9cdcc8;
+    box-shadow: 0 0 20px #305017;
+  }
+  .cont{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000000;
+  }
