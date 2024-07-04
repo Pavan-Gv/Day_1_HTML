@@ -267,3 +267,203 @@ HTML CODE:
 
 ![image](https://github.com/Pavan-Gv/Day_1_HTML/assets/94827772/733863df-3ade-4201-aa66-db4c2dbf33fe)
 
+
+### CSS Project:
+#### Index
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <div class="banner">
+        <br />
+        <div class="navbar">
+            <div class="logo">TECHBLITZz... </div>
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="services.html"> services </a></li>
+            <li><a href="people.html"> People </a></li>
+            <li><a href="contact.html"> Contact </a></li>
+          </ul>
+          <form action="" method="get">
+            <input type="text" placeholder="Enter to Search" /><br>
+            <button id="search" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="content">
+          <div class="text">
+                Navigate your Way to Innovation
+            <br>
+            <br>
+            <br>
+            <div class="cont">
+                TechBlitzz is a cutting-edge company dedicated to providing comprehensive technical solutions across various domains. Our mission is to simplify the complexities of technology for businesses and individuals alike, ensuring seamless integration and optimal performance. From IT support and network solutions to software development and cybersecurity, TechBlitzz leverages expertise and innovation to meet the evolving needs of our clients.
+            </div>
+  
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+<footer>
+    <center>Developed by | Pavan GV | </center>
+</footer>
+</body>
+</html>
+```
+
+#### people:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+    <div class="banner">
+        <br />
+        <div class="navbar">
+            <div class="logo">TECHBLITZz... </div>
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="services.html"> services </a></li>
+            <li><a href="people.html"> People </a></li>
+            <li><a href="contact.html"> Contact </a></li>
+          </ul>
+          <form action="" method="get">
+            <input type="text" placeholder="Enter to Search" /><br>
+            <button id="search" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="content">
+          <div class="text">
+                Navigate your Way to Innovation
+            <br>
+            <br>
+            <br>
+            <div class="cont">
+                TechBlitzz is a cutting-edge company dedicated to providing comprehensive technical solutions across various domains. Our mission is to simplify the complexities of technology for businesses and individuals alike, ensuring seamless integration and optimal performance. From IT support and network solutions to software development and cybersecurity, TechBlitzz leverages expertise and innovation to meet the evolving needs of our clients.
+            </div>
+  
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+<footer>
+    <center>Developed by | Pavan GV | </center>
+</footer>
+</body>
+</html>
+```
+#### css file:
+```html
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .banner{
+    width: 100%;
+    height: 95vh;
+    background-color: aliceblue;
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 50px;
+    font-size: 50px;
+    font-family:'sans-serif';
+    color: #305017;
+
+  }
+  form {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1px 1px;
+    font-size: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+  }
+  form input {
+    background: rgb(226, 226, 226);
+    flex: 1;
+    border: 0;
+    border-radius: 10%;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  ::placeholder {
+    color: black;
+  }
+  form button {
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+    background: #59b18e;
+    cursor: pointer;
+  }
+  
+  .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text{
+    color: #305017;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family:'sans-seri';
+  }
+  
+  
+  footer {
+    border: 1px;
+    padding: 5px;
+    font-family: 'sans-serif';
+    transition: 0.5s;
+    background: #000000;
+    color: #9cdcc8;
+    box-shadow: 0 0 20px #305017;
+  }
+  .cont{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #000000;
+  }
+```
+
+### Output:
+![image](https://github.com/Pavan-Gv/Day_1_HTML/assets/94827772/df49c8bc-9b90-481e-bbe1-f086c717e4d0)
